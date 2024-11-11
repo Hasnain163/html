@@ -1,0 +1,111 @@
+main{
+   
+    background-image: url(./fancy-crave-qowyMze7jqg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   background-size:cover ;
+ 
+}
+
+h1{
+ font-size: 2.6rem;
+ font-weight: 500;
+ font-style: italic;
+ color: #010d04;
+ text-align: center;
+ text-shadow: 0.1rem 0.2rem gray;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+
+}
+
+.btn1{
+    background-color: rgb(120, 164, 6);
+    color: aliceblue;
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* tags Name[attribute name] */
+
+input[type="text"]{
+    background-color: rgb(206, 190, 190);
+}
+input[type="email"]{
+    background-color: rgb(245, 245, 245);
+}
+
+a{
+    color: rgb(38, 26, 7);
+    text-decoration: none;
+    background-color: rgb(48, 100, 147);
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid green;
+    margin: 10px;
+    display: inline-block;
+}
+
+a:hover{
+    color: green;
+}
+
+input:focus{
+    background-color: rgb(51, 76, 51);
+}
+
+p::before{
+    content: "--->";
+
+}
+
+ul li:nth-child(3){
+   color: green;
+}
+
+/* #id name */
+
+#div2 > p{
+    color: green;
+} 
+#div2 + p{
+    color: blue;
+}
+#innerdiv p{
+    color: rgb(33, 185, 12);
+}
+#innerdiv ~ p{
+    color: rgb(185, 12, 49);
+}
+
+.icon{
+    font-size: 2rem;
+    color: #090909;
+}
+.icon1{
+    font-size: 2rem;
+    color: #a31010;
+}
+.icon2{
+    font-size: 2rem;
+    color: #131c97;
+}
+
+/* .class_name */
+
+.about{
+    width: auto;
+    height: 100vh;
+    color: #000000;
+    font-size:calc(16px + 1vw);
+    overflow:auto;
+    background-color: rgba(255, 251, 251, 0.896); /* Semi-transparent blue */
+    padding: 10px 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
